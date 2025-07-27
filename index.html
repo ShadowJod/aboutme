@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Mishra - Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Alex Chen - Full Stack Developer specializing in modern web technologies">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">NM</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+   
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-name">Nikhil Mishra</span>
+                    <span class="title-role">Web Dev | CSE Student | DSA Enthusiast</span>
+                </h1>
+                <p class="hero-description">
+                    I craft digital experiences that merge creativity with cutting-edge technology. 
+                    Specializing in modern web development with a passion for clean code and innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="mailto:nikhilmishra0187@gmail.com" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="card-glow"></div>
+                    <div class="code-snippet">
+                        <div class="code-line">
+                            <span class="code-keyword">const</span>
+                            <span class="code-variable">developer</span>
+                            <span class="code-operator">=</span>
+                            <span class="code-string">"creative"</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">function</span>
+                            <span class="code-function">buildFuture</span>
+                            <span class="code-brackets">()</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">return</span>
+                            <span class="code-string">"innovation"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating digital experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                       Hi! I'm Nikhil Mishra, a recent Computer Science diploma graduate from DSEU Rajokri. I’m a passionate full-stack developer with a strong grip on C++, JavaScript, Python, and a growing interest in AI/ML and computer vision.
+
+
+                    </p>
+                    <p class="about-paragraph">
+                      I’ve built several practical and user-focused projects, including a Diabetes Prediction System, a Hairfall Prediction Model, a Movie Recommendation System, and a creative CSS Gradient Generator for web designers. These projects reflect my interest in both problem-solving and clean, aesthetic UI/UX.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" >Diploma</span>
+                            <span class="stat-label">Computer Science, DSEU Rajokri</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" >2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" >10000+</span>
+                            <span class="stat-label">Lines of Code Written</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-glow"></div>
+                        <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753549790/image_bifjvs.jpg" alt="Developer workspace" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Web Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">WordPress</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                  <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753638244/cropped-cropped-final123-1_kuu7xs.webp">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://parigyanyogalaya.com/" class="project-link">Live</a>
+                                <!-- <a href="#" class="project-link">Source Code</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Parigyan Yogalaya Website</h3>
+                        <p class="project-description">
+                           Designed and developed a fully responsive yoga website for Parigyan Yogalaya, showcasing yoga programs, schedules, and contact details. Focused on a clean layout, user-friendly navigation, and modern aesthetics to promote wellness and engagement.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML\CSS</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Elementor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753638021/hairfall_gvf6bq.png">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">Live Demo</a> -->
+                                <a href="https://github.com/ShadowJod/HairFallPrediction" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hair Fall Prediction System </h3>
+                        <p class="project-description">
+                            A machine learning model that predicts hair fall risks based on genetic, medical, and environmental factors.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753638019/diabetes_m5qyuj.webp" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">Live Demo</a> -->
+                                <a href="https://github.com/ShadowJod/diabetes_prediction_system" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Diabetes Prediction System</h3>
+                        <p class="project-description">
+                            Built a predictive model that analyzes patient health data to assess the likelihood of diabetes.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753638019/minidictonary_me0hqy.png">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">Live Demo</a> -->
+                                <a href="https://github.com/ShadowJod/minorProject" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mini Dictionary</h3>
+                        <p class="project-description">
+                            Developed a dynamic dictionary web app that stores, manages, and fetches words with meanings.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML\CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://res.cloudinary.com/dmczrwazw/image/upload/v1753638020/cssGradient_ysfrw3.png">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link">Live Demo</a> -->
+                                <a href="https://github.com/ShadowJod/CSS-GradientGenerator" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CSS Gradient Generator</h3>
+                        <p class="project-description">
+                            Created a web tool that generates beautiful, randomized CSS gradients for developers and designers.
+
+
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>nikhilmishra0187@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 8700883040</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/ShadowJod" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/nikhil-mishra-946a5b308/" class="social-link">LinkedIn</a>
+                        <a href="https://leetcode.com/u/TRC0UVlcHY/" class="social-link">LeetCode</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Nikhil Mishra. All rights reserved.</p>
+                <!-- <p>Built with ❤️ using vanilla HTML, CSS & JavaScript</p> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
